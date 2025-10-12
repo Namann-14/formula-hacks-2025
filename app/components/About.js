@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { Users, FileText, UsersRound, Trophy } from "lucide-react";
 
 export default function About() {
   const statsRef = useRef([]);
@@ -96,28 +97,36 @@ export default function About() {
           </div>
           <div className="stats-grid">
             <div className="stat-card">
-              <div className="stat-icon">👨‍💻</div>
+              <div className="stat-icon">
+                <Users size={48} strokeWidth={1.5} />
+              </div>
               <div className="stat-number" data-target="30000">
                 0
               </div>
               <div className="stat-label">STUDENTS</div>
             </div>
             <div className="stat-card">
-              <div className="stat-icon">📝</div>
+              <div className="stat-icon">
+                <FileText size={48} strokeWidth={1.5} />
+              </div>
               <div className="stat-number" data-target="700">
                 0
               </div>
               <div className="stat-label">REGISTRATIONS</div>
             </div>
             <div className="stat-card">
-              <div className="stat-icon">👥</div>
+              <div className="stat-icon">
+                <UsersRound size={48} strokeWidth={1.5} />
+              </div>
               <div className="stat-number" data-target="40">
                 0
               </div>
               <div className="stat-label">FINAL TEAMS</div>
             </div>
             <div className="stat-card">
-              <div className="stat-icon">🏆</div>
+              <div className="stat-icon">
+                <Trophy size={48} strokeWidth={1.5} />
+              </div>
               <div className="stat-number" data-target="3">
                 0
               </div>
