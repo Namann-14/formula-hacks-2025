@@ -121,6 +121,18 @@ export default function Sponsors() {
             />
           */}
         </div>
+        <div className="space-y-20">
+          <p className="mt-8 text-lg text-text-dark/80 max-w-3xl mx-auto text-center">
+            VibinZ is the heartbeat of campus life — the club that brings
+            energy, excitement, and crazy ideas to life. From electrifying fests
+            and high-voltage concerts to creative cultural nights and
+            grand-scale events, we’re the team behind the vibe that everyone
+            talks about. As the Cultural Partners for this hackathon, VibinZ
+            adds a spark of creativity, fun, and celebration to the tech spirit
+            — blending innovation with entertainment to make the experience
+            truly unforgettable.
+          </p>
+        </div>
       </div>
     </section>
   );
