@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 
 const events = [
   {
@@ -126,7 +127,7 @@ const events = [
   },
   {
     time: "2:00 PM",
-    title: "Al Labs Interaction",
+    title: "GDG AI LABS Orientation",
     day: "Day 2",
     final: true,
   },
@@ -236,7 +237,13 @@ export default function Timeline() {
           <div className="timeline-track-container">
             <div className="timeline-track"></div>
             <div id="timeline-car-emoji" className="timeline-car" ref={carRef}>
-              🏎️
+              <Image
+                src="/assets/CAR.png"
+                alt="Racing Car"
+                width={80}
+                height={40}
+                className="w-full h-auto scale-x-[-1]"
+              />
             </div>
           </div>
           <div className="timeline-container" ref={timelineContainerRef}>

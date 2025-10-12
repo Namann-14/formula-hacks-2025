@@ -61,8 +61,8 @@ body {
   background: transparent;
   /* The container itself is transparent; the ::before pseudo-element provides the background */
   transition: top 0.5s ease, left 0.5s ease, width 0.5s ease, height 0.5s ease;
-  overflow: hidden;
-  /* Hide the expanding pseudo-element */
+  overflow: visible;
+  /* Changed from hidden to visible so the car can be seen above the navbar */
 }
 
 .navbar-container::before {
@@ -106,7 +106,6 @@ body {
 
 .nav-race-car {
   pointer-events: auto;
-  top: 22px;
   position: absolute;
   top: -18px;
   /* Position car above the navbar */

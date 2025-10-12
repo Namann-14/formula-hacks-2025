@@ -34,7 +34,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${orbitron.variable} ${roboto.variable}`}>
       <head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/assets/logo1.ico" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
       </head>
       <body className="bg-background-dark font-body text-text-dark">
         <ClientBackground />
