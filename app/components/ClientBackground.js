@@ -11,8 +11,8 @@ export default function ClientBackground() {
         variant="circle"
         pixelSize={6}
         color="#f00"
-        patternScale={3}
-        patternDensity={1.2}
+        patternScale={7}
+        patternDensity={0.8}
         pixelSizeJitter={0.5}
         enableRipples
         rippleSpeed={0.4}
