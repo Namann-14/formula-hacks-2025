@@ -27,7 +27,7 @@ const sponsors = {
     },
     {
       name: "Cake",
-      src: "/assets/cake.png",
+      src: "/assets/CAKE.png",
       width: 180,
       height: 70,
       tier: "gold",
