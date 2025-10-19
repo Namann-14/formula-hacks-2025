@@ -238,7 +238,7 @@ export default function Timeline() {
             <div className="timeline-track"></div>
             <div id="timeline-car-emoji" className="timeline-car" ref={carRef}>
               <Image
-                src="/assets/CAR.png"
+                src="/assets/Car2.png"
                 alt="Racing Car"
                 width={80}
                 height={40}

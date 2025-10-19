@@ -59,10 +59,8 @@ body {
   max-width: 64rem;
   /* max-w-5xl */
   background: transparent;
-  /* The container itself is transparent; the ::before pseudo-element provides the background */
   transition: top 0.5s ease, left 0.5s ease, width 0.5s ease, height 0.5s ease;
   overflow: visible;
-  /* Changed from hidden to visible so the car can be seen above the navbar */
 }
 
 .navbar-container::before {
@@ -234,8 +232,18 @@ body {
   animation: helmetMoveRight 4s ease-in-out infinite;
 }
 
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
 .parallax-bg {
-  background: linear-gradient(135deg, rgba(255, 24, 1, 0.02) 0%, transparent 50%, rgba(255, 24, 1, 0.02) 100%);
+  background: linear-gradient(135deg, rgba(197, 199, 201, 0.004) 0%, transparent 50%, rgba(57, 55, 55, 0.005) 100%);
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
@@ -270,7 +278,7 @@ body {
 
 /* About Section */
 .about {
-  padding: 6rem 1.5rem;
+  padding: 6rem 0.5rem;
   background: var(--dark-gray);
   display: flex;
   align-items: center;
@@ -281,8 +289,8 @@ body {
 
 .about-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 2rem;
   align-items: start;
   min-height: 150px;
 }
@@ -335,7 +343,7 @@ body {
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
+  gap: 2rem;
   height: 100%;
 }
 
@@ -628,9 +636,6 @@ body {
     gap: 3rem;
   }
 
-  .stats-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
 }
 
 @keyframes fadeIn {
@@ -734,9 +739,6 @@ body {
     transform: rotate(-45deg) translate(4px, -5px);
   }
 
-  .stats-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (max-width: 480px) {
