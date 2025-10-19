@@ -64,7 +64,7 @@ export default function Footer() {
               className="mt-2 inline-block hover:text-primary transition-colors"
               href="mailto:contact@f1hack.com"
             >
-              contact@f1hack.com
+              cse.dsc@chitkara.edu.in
             </a>
           </div>
           <div>
