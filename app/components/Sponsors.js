@@ -72,6 +72,22 @@ const sponsors = {
       tier: "silver",
     },
   ],
+  poweredBy: [
+    {
+      name: "Hack Culture",
+      src: "/assets/HackCulture.png",
+      width: 200,
+      height: 40,
+      tier: "poweredBy",
+    },
+    {
+      name: "Secure Dapp",
+      src: "/assets/securedapp.svg",
+      width: 200,
+      height: 40,
+      tier: "poweredBy",
+    },
+  ],
 };
 
 const SponsorTier = ({
@@ -165,6 +181,12 @@ export default function Sponsors() {
                   imageClass="max-h-24"
                 />
               </div>
+              <SponsorTier
+                title="Powered By"
+                sponsors={sponsors.poweredBy}
+                titleClass="text-blue-400"
+                imageClass="max-h-24"
+              />
               <SponsorTier
                 title="Gold Sponsors"
                 sponsors={sponsors.gold}
