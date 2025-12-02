@@ -19,13 +19,12 @@
 
 </div>
 
----
 
-## 📸 Screenshots
+---
 
 <div align="center">
 
-![Landing Page](https://via.placeholder.com/800x450/1a1a1a/ff0000?text=Formula+Hacks+2025+Landing+Page)
+<img width="1270" height="669" alt="formula hacks landing" src="https://github.com/user-attachments/assets/17bcdab9-3dfe-4d9a-a2bc-13871191ab71" />
 
 *🏎️ Formula Hacks 2025 — Landing Page*
 
